@@ -9,18 +9,15 @@ body {
 	background-color: #F0F0F0;
 }
 
-body>header>div {
-	background-color: #282923;
-}
 
 #w1 {
 	width: 800px;
+	background-color: #282923;
 }
 
-#title {
-	width: 500px;
+#t {
 	float: left;
-	margin: 20px 100px;
+	margin: 50px 100px;
 }
 
 .name {
