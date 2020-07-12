@@ -9,7 +9,7 @@ body {
 	background-color: #F9F0F9;
 }
 
-body>header {
+body>header>div {
 	background-color: #F0F0F0;
 }
 
