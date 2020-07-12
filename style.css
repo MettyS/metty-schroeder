@@ -5,14 +5,14 @@
 }
 
 body {
-	color: #F9F0F9;
+	background-color: #F9F0F9;
 }
 
 body>header {
-	color: #F0F0F0;
+	background-color: #F0F0F0;
 }
 
 .temp {
-	color: #FFE2E2;
+	background-color: #FFE2E2;
 	margin-top: 100px;
 }
