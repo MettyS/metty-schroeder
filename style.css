@@ -6,28 +6,59 @@
 
 body {
 	color: #FEFFE3;
-	background-color: #F0F0F0;
+  	background-color: #282923;
+  	font-family: "Gothic A1", "-apple-system", BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+	font-weight: lighter;
+}
+
+main {
+	background-color: #6d6e6a;
+}
+
+footer {
+	text-align: center;
+}
+
+ol>li {
+	float: left;
+	margin-right: 80px;
+	padding-right: 80px;
 }
 
 
 #w1 {
-  display: flex;
-	width: 1000px;
-	padding: 50px;
-	background-color: #282923;
-  overflow: hidden;
-  text-align: center;
+  	display: flex;
+	width: 100%;
+  	text-align: center;
+  	/*align-items: center;*/
+  }
+
+#w2 {
+	display: flex;
+	text-align: center;
+	align-items: center;
 }
 
+#w3 {
+	display: flex;
+	text-align: center;
+	align-items: center;
+	border: white 1px solid;
+}
+
+
+
 #title {
-  border: white 1px solid;
-	width: 300px;
+	width: 320px;
 	float: left;
 	margin: 50px 50px;
+	padding: 5px 20px;
+
+	border: white 1px solid;
 }
 
 .name {
-
+	font-weight: 500;
 }
 
 .headshot {
@@ -36,36 +67,91 @@ body {
 
 
 #contact {
-  display: inline-block;
-  border: white 1px solid;
 	align-items: center;
+	height: 50px;
+	width: 600px;
 	margin: 100px 50px;
-  overflow: hidden;
+	font-family: monospace;
+
+  	border: white 1px solid;
+}
+
+.info {
+	background-color: #282923;
+	width: 30%;
+	height: 380px;
+	text-align: left;
+	margin: 30px 50px;
+	padding: 20px 50px;
+
+	border: white 1px solid;
+}
+
+#about {
+	width: 60%;
 }
 
 .btn {
+	display: inline-grid;
 	color: #282923;
 	background-color: #FEFFE3;
 	padding: 5px 10px;
-  margin: 10px;
+  	margin: 10px 10px;
+}
+
+a.link:link {
+	color: #F9E3FF;
+}
+
+a.link:visited {
+	color: #F9F0F9;
+}
+
+a.link:hover {
+	color: #F0F0F0;
+}
+
+a.link:active {
+	color: #6d6e6a;
 }
 
 
 
-
-
-
-.temp {
-	background-color: #FFE2E2;
-	margin-top: 100px;
+#color-catalogue {
+	padding-left: 50px;
+	padding-bottom: 10px;
 }
 
+.box {
+	width: 20px;
+	height: 20px;
 
+	border: white 1px solid;
+}
 
+.c1 {
+	background-color: white;
+}
+
+.c2 {
+	background-color: #FEFFE3;
+}
+
+.c3 {
+	background-color: #F9E3FF;
+}
+
+.c4 {
+	background-color: #6d6e6a;
+}
+
+.c5 {
+	background-color: #282923;
+}
 
 /*
-
 COLORS:
+#F9E3FF - light purple
 #F0F0F0 - light purple grey
 #FFE2E2 - full pink
 #F9F0F9 - misty pink
