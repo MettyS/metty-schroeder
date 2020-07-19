@@ -3,7 +3,7 @@
 * {
 	margin: 0;
 	padding: 0;
-	/*list-style-type: none;*/
+	list-style-type: none;
 	line-height: 1.5;
 	
 	font-family: "Gothic A1", "-apple-system", BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
@@ -18,7 +18,6 @@
 section {
 	padding: 20px;
 }
-
 /* - 640px is standard for 'mobile-first' - */
 /* - auto magin keeps equal margins on sides to 'center' body of text in responsive manner - */
 section .wrapper {
@@ -28,7 +27,6 @@ section .wrapper {
 main section .wrapper {
 	margin-bottom: 50px;
 }
-
 header {
 	background-color: #555652;
 }
@@ -65,7 +63,6 @@ p {
 	align-items: center;
 	margin: auto;
 }
-
 
 /* ---- BTN ---- */
 .btn-list {
@@ -154,52 +151,26 @@ p {
 	background-color: #555652;
 }
 
-
-
+/* ---- LINKS ---- */
 a.link:link {
 	color: #F9E3FF;
 }
-
 a.link:visited {
 	color: #F9F0F9;
 }
-
 a.link:hover {
 	color: #F0F0F0;
 }
-
 a.link:active {
 	color: #6d6e6a;
 }
 
-
+/* ---- MEDIA ---- */
 @media screen and (max-width: 640px) {
 #intro .wrapper {display: block; text-align: center;}
 #info .wrapper article {display: block;}
-
 }
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-/*
-COLORS:
-#F9E3FF - light purple
-#F0F0F0 - light purple grey
-#FFE2E2 - full pink
-#F9F0F9 - misty pink
-#FEFFE3 - pale yellow
-
-#282923 - dark grey
-#6d6e6a - medium grey
-*/
